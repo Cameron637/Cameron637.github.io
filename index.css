@@ -1,0 +1,114 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: Roboto;
+    margin: 0;
+}
+
+h1, h2, h3, p {
+    margin: 0;
+}
+
+#intro {
+    background: url("images/banner.jpg") no-repeat center center / cover;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    width: 100vw;
+}
+
+#intro div {
+    color: white;
+    height: 100%;
+    line-height: 5rem;
+    text-align: center;
+    text-shadow: 0.1rem 0.1rem 0.2rem black;
+}
+
+#intro img {
+    border-radius: 50%;
+    height: 25%;
+    margin-top: 25vh;
+}
+
+#intro h1 {
+    font-family: Open Sans;
+    font-size: 7rem;
+    margin-bottom: 7vh;
+}
+
+#intro h2 {
+    font-size: 3rem;
+    margin-top: 10vh;
+}
+
+#story h1 {
+    background-color: darkslategray;
+    color: white;
+    font-size: 3rem;
+    padding: 1rem 2rem;
+    text-align: center;
+    text-shadow: 0.1rem 0.1rem 0.2rem black;
+}
+
+.experience {
+    background-color: lightgray;
+    padding: 1rem 2rem;
+}
+
+.experience a {
+    color: blue;
+    text-decoration: none;
+}
+
+.experience .orgName {
+    color: teal;
+    font-family: Open Sans;
+    font-size: 3rem;
+}
+
+.experience h2 {
+    color: saddlebrown;
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+
+.experience h3 {
+    margin: 1rem 0;
+}
+
+.experience p {
+    font-size: 1.5rem;
+}
+
+.experience .imageContainer {
+    width: 22rem;
+}
+
+.experience .imageContainer.logo {
+    width: 12rem;
+}
+
+.experience img {
+    width: 100%;
+}
+
+@media (min-width: 512px) {
+    .experience {
+        padding: 2rem 5rem;
+    }
+
+    .experience header {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+@media (min-width: 1240px) {
+    #intro img {
+        height: 35%;
+        margin-top: 15vh
+    }
+}
