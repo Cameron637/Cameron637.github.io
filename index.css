@@ -145,8 +145,11 @@ footer {
 }
 
 footer div, footer p {
-    margin: 1rem;
     text-align: center;
+}
+
+#contactInfo {
+    margin: 2rem 1rem 2rem 2rem;
 }
 
 #contactInfo a:-webkit-any-link {
@@ -154,9 +157,17 @@ footer div, footer p {
     text-decoration: none;
 }
 
+#links {
+    margin: 2rem 1rem;
+}
+
 #links a {
     color: white;
     text-decoration: none;
+}
+
+footer p {
+    margin: 2rem 2rem 2rem 1rem;
 }
 
 @media (min-width: 512px) {
