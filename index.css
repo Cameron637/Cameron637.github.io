@@ -95,6 +95,31 @@ h1, h2, h3, p {
     width: 100%;
 }
 
+footer {
+    align-items: center;
+    background-color: darkslategray;
+    color: white;
+    display: flex;
+    font-size: 1.5rem;
+    justify-content: space-between;
+    text-shadow: 0.1rem 0.1rem 0.2rem black;
+}
+
+footer div, footer p {
+    margin: 1rem;
+    text-align: center;
+}
+
+#contactInfo a:-webkit-any-link {
+    color: deepskyblue;
+    text-decoration: none;
+}
+
+#links a {
+    color: white;
+    text-decoration: none;
+}
+
 @media (min-width: 512px) {
     .experience {
         padding: 2rem 5rem;
