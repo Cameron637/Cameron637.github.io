@@ -152,6 +152,11 @@ footer div, footer p {
     margin: 2rem 1rem 2rem 2rem;
 }
 
+#contactInfo a {
+    color: deepskyblue;
+    text-decoration: none;
+}
+
 #contactInfo a:-webkit-any-link {
     color: deepskyblue;
     text-decoration: none;
