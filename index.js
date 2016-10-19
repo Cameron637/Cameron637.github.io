@@ -1,3 +1,3 @@
-window.addEventListener("load", () => {
+window.addEventListener("load", function () {
     document.querySelector("html").classList.add("loaded");
 });
