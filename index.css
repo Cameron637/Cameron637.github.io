@@ -138,9 +138,8 @@ footer {
     align-items: center;
     background-color: darkslategray;
     color: white;
-    display: flex;
+    display: block;
     font-size: 1.5rem;
-    justify-content: space-between;
     text-shadow: 0.1rem 0.1rem 0.2rem black;
 }
 
@@ -149,7 +148,7 @@ footer div, footer p {
 }
 
 #contactInfo {
-    margin: 2rem 1rem 2rem 2rem;
+    padding: 2rem 1rem 2rem 2rem;
 }
 
 #contactInfo a {
@@ -163,7 +162,7 @@ footer div, footer p {
 }
 
 #links {
-    margin: 2rem 1rem;
+    padding: 2rem 1rem;
 }
 
 #links a {
@@ -172,7 +171,7 @@ footer div, footer p {
 }
 
 footer p {
-    margin: 2rem 2rem 2rem 1rem;
+    padding: 2rem 2rem 2rem 1rem;
 }
 
 @media (min-width: 512px) {
@@ -180,6 +179,11 @@ footer p {
         padding: 2rem 5rem;
     }
     .experience header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    footer {
         display: flex;
         justify-content: space-between;
     }
