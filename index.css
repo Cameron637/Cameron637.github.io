@@ -92,6 +92,14 @@ h1, h2, h3, p {
     text-shadow: 0.1rem 0.1rem 0.2rem black;
 }
 
+#story h1.longTitle {
+    display: none;
+}
+
+#story h1.shortTitle {
+    display: block;
+}
+
 .experience {
     background-color: lightgray;
     padding: 1rem 2rem;
@@ -175,6 +183,14 @@ footer p {
 }
 
 @media (min-width: 512px) {
+    #story h1.longTitle {
+        display: block;
+    }
+
+    #story h1.shortTitle {
+        display: none;
+    }
+
     .experience {
         padding: 2rem 5rem;
     }
