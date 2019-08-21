@@ -1,2 +1,2 @@
 # Cameron Sanchez
-My Developer Portfolio: https://www.cameronjsanchez.com.
+My Developer Portfolio: https://cameronjsanchez.com.
